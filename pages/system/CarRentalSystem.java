@@ -88,13 +88,38 @@ public class CarRentalSystem {
         return false;
     }
     // ! cancel booking
+    // todo Home work ( Iterator )
 
     // --load/ save data
     // ! load cars
+    public void loadCars(ArrayList<Car> cars) {
+        this.carList = cars;
+    }
+
     // ! load customers
+    public void loadCustomers(ArrayList<Customer> customers) {
+        this.customers = customers;
+    }
+
     // ! load reservations
+    public void loadReservations(ArrayList<Reservation> reservations) {
+        this.reservations = reservations;
+    }
+
     // ! getCar list
+    public ArrayList<Car> getCarList() {
+        return carList;
+    }
     // ! getCustomers
+
+    public ArrayList<Customer> getCustomers() {
+        return customers;
+    }
+
     // ! getReservations
+
+    public ArrayList<Reservation> getReservations() {
+        return reservations;
+    }
 
 }
